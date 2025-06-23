@@ -3,8 +3,7 @@ import Login from './Login';
 
 function App() {
   return (
-    <div style={{ padding: '50px', backgroundColor: 'pink', fontSize: '24px' }}>
-      <p>✅ App.jsx se está cargando</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <Login />
     </div>
   );
