@@ -2,7 +2,7 @@ import Login from './Login';
 
 function App() {
   return (
-    <div style={{ padding: '100px', backgroundColor: 'pink' }}>
+    <div className="min-h-screen bg-gray-100">
       <Login />
     </div>
   );
